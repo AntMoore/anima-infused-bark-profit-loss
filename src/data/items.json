@@ -1,10 +1,12 @@
 [
     {
         "id": 28134,
-        "name": "Anima-infused bark"
+        "name": "Anima-infused bark",
+        "price": null
     },
     {
         "id": 28146,
-        "name": "Log brace"
+        "name": "Log brace",
+        "price": null
     }
 ]
