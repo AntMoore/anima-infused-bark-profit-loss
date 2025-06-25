@@ -1,3 +1,3 @@
-import alpha from './inctest';
+import alpha from './inctest.js';
 
 console.log(`Hello ${alpha}!`);
