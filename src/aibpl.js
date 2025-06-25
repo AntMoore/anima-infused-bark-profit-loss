@@ -6,7 +6,7 @@ async function aipbl() {
     const items = await loadItems();
 
     if (__DEBUG) console.log("Loaded items:", items); 
-    if (__DEBUG) console.log("item 28146:", getItemById(28146));
+    if (__DEBUG) console.log("item 28146:", await getItemById(28146));
 
 }
 
