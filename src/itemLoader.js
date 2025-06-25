@@ -4,7 +4,7 @@ export async function loadItems(clearCache = false) {
   // Return cache if already loaded
   if (!clearCache && cachedItems) return cachedItems;
 
-  const res = await fetch('data/items.json');
+  const res = await fetch('./src/data/items.json');
   if (!res.ok) throw new Error('Failed to load items');
 
   cachedItems = await res.json(); // Store in cache
